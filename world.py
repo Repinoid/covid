@@ -16,9 +16,6 @@ with open("WorldPopula.csv", encoding='utf-8') as r_file:
         print(row)
         population[row[0]] = row[1]
 
-
-#exit()
-
 url = "https://russian-trade.com/coronavirus-russia/moskva/"
 response = requests.get(url)
 txt = response.text  # Access the HTML with the text property
