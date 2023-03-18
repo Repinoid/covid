@@ -4,7 +4,7 @@ from dostup import keys
 session = boto3.session.Session()
 s3 = session.client(
     service_name        =   's3',
-    endpoint_url        =   keys['endpoint_url'],
+#    endpoint_url        =   keys['endpoint_url'],
     aws_access_key_id   =   keys['aws_access_key_id'],
     aws_secret_access_key=  keys['aws_secret_access_key'],
     region_name         =   keys['region_name'],
